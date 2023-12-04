@@ -1,0 +1,40 @@
+.menu {
+  width: 100vw;
+  height: 3.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid var(--white);
+  background-color: var(--bgColor);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.menu h1 {
+  width: 50%;
+}
+
+.menu-navigation {
+  width: 40%;
+}
+
+.menu-navigation-ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.menu-navigation-ul li {
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.menu-navigation-ul li:hover {
+  text-decoration: underline;
+  background-color: var(--primary);
+}

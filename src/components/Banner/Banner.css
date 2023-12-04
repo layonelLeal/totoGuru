@@ -1,0 +1,47 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-contImage {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-contImage img {
+  width: 90%;
+}
+
+.banner-data {
+  width: 50%;
+  height: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: var(--bgColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-data h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.banner-data p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.banner-data button{
+  margin: 15px 0;
+}

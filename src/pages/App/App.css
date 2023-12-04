@@ -1,0 +1,13 @@
+.appTodo {
+  width: 90%;
+  margin: auto;
+  height: calc(100vh - 3.5em);
+  margin-top: 3.5em;
+}
+
+.appTodo-options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}

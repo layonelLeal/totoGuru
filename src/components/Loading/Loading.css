@@ -1,0 +1,20 @@
+.contLoading {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contLoading-minCodeCraft {
+  animation: minar 1s cubic-bezier(1, 0.3, 0.3, 1) infinite;
+  max-width: 13em;
+}
+
+.contLoading-minCodeCraft path {
+  fill: var(--white);
+}
